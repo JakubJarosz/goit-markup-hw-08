@@ -1,0 +1,16 @@
+
+
+.order {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/mainpage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  & .cointaner {
+  justify-content: center;
+  height: 600px;
+}
+}

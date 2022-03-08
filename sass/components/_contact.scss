@@ -1,0 +1,53 @@
+.contact {
+  display: flex;
+  list-style-type: none;
+  margin-left: auto;
+  margin-top: 32px;
+}
+
+
+.contact__item  {
+ height: 18px;
+ 
+
+.contact__icon {
+  margin-right: 10px;
+  fill: var(--secondary-color);
+  transition: fill 250ms linear;
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+}
+
+
+ &:not(:last-child) {
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+
+  &:hover svg,
+  &:focus svg,
+  &:hover a,
+  &:focus a {
+  fill: var(--main-color);
+  color: var(--main-color);
+}
+
+}
+
+
+.contact__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--color-8);
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: color 250ms linear;
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+
+}
+
+
+
+

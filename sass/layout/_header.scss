@@ -1,0 +1,14 @@
+.header {
+  border: 1px solid #ececec;
+
+& .logo:before {
+  content: "Web";
+  color: var(--main-color);
+}
+
+& .logo:after {
+  content: "Studio";
+  color: var(--color-8);
+}
+}
+

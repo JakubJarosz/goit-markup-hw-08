@@ -1,0 +1,149 @@
+.footer {
+  background-color: #2f303a;
+
+  
+& .logo:before {
+  content: "Web";
+  color: var(--main-color);
+}
+
+& .logo:after {
+  content: "Studio";
+  color: var(--color-7);
+}
+
+& .logo {
+  color: var(--color-8);
+}
+
+& .cointaner .logo {
+  padding-top: 60px;
+  display: inline-block;
+}
+
+& .social-media__icon {
+  fill: var(--color-7);
+}
+
+& .cointaner .middlefooter .social-media {
+  margin-top: 20px;
+}
+
+& .cointaner {
+  display: flex;
+}
+
+& .social-media__list:hover,
+& .social-media__list:focus {
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+
+& .social-media__list {
+  background-color: var(--color-11);
+}
+}
+
+
+.middlefooter {
+  margin-left: 70px;
+}
+
+.location {
+  margin-top: 20px;
+  padding-bottom: 60px;
+}
+
+.location__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+
+.location__link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: color 250ms linear;
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+
+&:hover,
+&:focus {
+  color: var(--color-7);
+}
+}
+
+
+.h4 {
+  margin-top: 72px;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-6);
+}
+
+
+
+.signin-title {
+  margin-top: 72px;
+  margin-left: 78px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-6);
+}
+
+
+.signin__input {
+  height: 50px;
+  width: 358px;
+  margin-left: 78px;
+  margin-right: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--color-12);
+  outline: none;
+  transition: all 250ms linear;
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+
+&:hover,
+&:focus {
+  outline: none;
+  border-color: var(--main-color);
+}
+
+
+&::placeholder {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: var(--color-3);
+  z-index: 5;
+}
+}
+
+
+.signin__svg {
+  position: absolute;
+  top: 13px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  fill: var(--color-6);
+}
+
+.signin {
+  display: flex;
+}
+

@@ -1,0 +1,34 @@
+
+
+.whatwedo__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.whatwedo__item {
+  position: relative;
+}
+
+.whatwedo__box__item {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-8);
+  padding-top: 27px;
+}
+
+.whatwedo__box {
+  background: rgba(47, 48, 58, 0.8);
+  height: 70px;
+  width: 370px;
+  position: absolute;
+  z-index: 3;
+  bottom: 0px;
+}

@@ -1,0 +1,15 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  background-color: var(--color-5);
+  height: 100%;
+  width: 100%;
+  z-index: 4;
+  transition: 1s;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
