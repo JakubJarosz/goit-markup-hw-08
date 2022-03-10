@@ -295,6 +295,7 @@ img {
   color: var(--color-8);
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .logo {
