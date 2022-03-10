@@ -1,5 +1,94 @@
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .order {
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/main/main-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+    }                                                          
+}
+@media screen and (min-width: 480px) {
+.order .button__container .button {
+    margin-bottom: 118px;
+}
+}
 
 
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 480px) and (max-width: 767px),
+  screen and (min-resolution: 192dpi) and (min-width: 480px) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (min-width: 480px) and (max-width: 767px) {
+  .order {
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/main/main-mobile@2x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+    }  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .order {
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/main/main-tablet.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1199px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1199px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1199px) {
+    .order {
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/main/main-tablet@2x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .order {
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/main/main-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) ,
+  screen and (min-resolution: 192dpi) and (min-width: 1200px) ,
+  screen and (min-resolution: 2dppx) and (min-width: 1200px)  {
+    .order {
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/main/main-desktop@2x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+    }
+}
+
+/*
 .order {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -14,3 +103,4 @@
   height: 600px;
 }
 }
+*/

@@ -1,3 +1,20 @@
+@media screen and (min-width: 480px) {
+  .h1 {
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 42px;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding-top: 118px;
+  color: var(--color-7);
+  width: 365px;
+  margin-bottom: 40px;
+}
+}
+
+/*
 .h1 {
   font-weight: 900;
   font-size: 44px;
@@ -11,3 +28,5 @@
   width: 696px;
   margin-bottom: 30px;
 }
+
+*/

@@ -1,7 +1,8 @@
-.modal {
+@media screen and (min-width: 480px) {
+  .modal {
   background-color: var(--color-7);
-  width: 582px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -12,7 +13,6 @@
   margin: auto;
   z-index: 5;
 }
-
 .close-btn__svg {
   width: 11px;
   height: 11px;
@@ -117,6 +117,9 @@ textarea:focus {
   vertical-align: middle;
   margin-top: 20px;
   margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
 
 &:before {
   display: inline-block;
@@ -148,3 +151,17 @@ textarea:focus {
 }
 
 
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
+  .checkbox__rules {
+  font-size: 14px;
+  line-height: 24px;
+}
+}

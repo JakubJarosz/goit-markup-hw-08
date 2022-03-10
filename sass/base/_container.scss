@@ -1,9 +1,34 @@
 .cointaner {
-  width: 1200px;
-  margin: 0 auto;
+  width: 100%;
+ 
 
   
 .header & {
   display: flex;
+}
+}
+
+@media screen and (min-width: 480px) {
+  .cointaner {
+  max-width: 767px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+}
+
+
+
+@media screen and (min-width: 768px) {
+.cointaner {
+  max-width: 1199px;
+}
+}
+
+
+@media screen and (min-width: 1200px) {
+  .cointaner {
+  max-width: 1600px;
+  padding-left: 189px;
+  padding-right: 189px;
 }
 }

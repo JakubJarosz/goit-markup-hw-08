@@ -1,0 +1,123 @@
+
+@media screen and (min-width: 480px) {
+    .menu__button {
+        background-color: transparent;
+        height: 22px;
+        width: 35px;
+        margin-top: 32px;
+        text-align: center;
+        border: none;
+        margin-left: auto;
+    }
+    .line {
+        width: 2px;
+        height: 30px;
+        background-color: black;
+    }
+    .mobile__menu  {
+        width: 100%;
+        height: 100%;
+        background-color: var(--color-6);
+        position: relative;
+        z-index: 10;
+        position: fixed;
+
+        & .menu {
+            display: inline-block;
+            margin-top: 48px;
+            margin-left: 40px;
+        }
+
+        & .contact {
+            display: block;
+            margin-top: 266px;
+            margin-left: 40px;
+        }
+        & .menu .menu__link {
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 48px;
+            letter-spacing: 0.02em;
+        }
+        & .menu .menu__item {
+            margin-bottom: 36px;
+            margin-top: 0px;
+        }
+        & .contact .contact__item{
+            margin-bottom: 32px;
+        }
+        & .contact .contact__item:nth-child(2) a {
+            font-size: 24px;
+            line-height: 28px;
+
+        }
+
+        & .contact .contact__link {
+            font-weight: 500;
+            font-size: 34px;
+            line-height: 40px;
+            letter-spacing: 0.02em;
+        }
+    }
+    
+    .mobile__close-btn__svg {
+        width: 18px;
+        height: 18px; 
+        transition: fill 250ms linear;
+        transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+
+  &:hover,
+  &:focus {
+    fill: var(--main-color);
+  }
+    }
+    .mobile__close-btn {
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        right: 20px;
+        top: 18px;
+    }
+    .mobile__social-media {
+        display: flex;
+        margin-left: 40px;
+        margin-top: 84px;
+    }
+    .mobile__social-media_list {
+        color: var(--main-color);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.02em;
+        height: 35px;
+        
+
+        &::after {
+        content: "";
+        display: inline-block;
+        background-color: rgba(33, 33, 33, 0.2);;
+        width:1px;
+        height: 22px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 5px;
+    }
+    }
+    &:last-child::after {
+        background-color: white;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .menu__button{
+         clip: rect(0 0 0 0);
+         clip-path: inset(50%);
+         height: 1px;
+         overflow: hidden;
+         position: absolute;
+         white-space: nowrap;
+         width: 1px;
+    }
+    
+}

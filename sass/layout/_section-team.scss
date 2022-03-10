@@ -1,26 +1,10 @@
+
+
+@media screen and (min-width: 480px) {
+ 
 .team {
-  background-color: #f5f4fa;
-
-& .cointaner .h2 {
-  padding-top: 94px;
-  padding-bottom: 50px;
+  background-color: var(--color-7);
 }
-
-}
-
-.team__list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 94px;
-}
-
-.team__information {
-  background-color: var(--color-6);
-}
-
-
-
 .team__profession {
   font-size: 16px;
   line-height: 1.187;
@@ -28,11 +12,10 @@
   text-align: center;
 }
 
-
-
 .team__item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
 
 & .social-media__list:hover svg,
 & .social-media__list:hover {
@@ -48,4 +31,44 @@
   cursor: pointer;
 }
 }
+.team__information {
+  background-color: var(--color-6);
+}
+.team__list {
+  padding-bottom: 30px;
+}
+}
 
+
+
+
+@media screen and (min-width: 768px) {
+ 
+ .team__list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.team__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 94px;
+}
+
+
+*/

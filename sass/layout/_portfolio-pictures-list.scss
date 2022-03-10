@@ -1,3 +1,19 @@
+
+@media screen and (min-width: 480px) {
+.image {
+  width: 450px;
+  height: 294px;
+}
+}
+
+@media screen and (min-width: 768px) {
+.image {
+  width: 354px;
+  height: 294px;
+}
+}
+
+
 .portfoliopictures {
   display: flex;
   flex-wrap: wrap;
