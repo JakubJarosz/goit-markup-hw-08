@@ -4,12 +4,24 @@
   width: 450px;
   height: 294px;
 }
+.hoverlist__description {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 77px;
+  margin-bottom: 77px;
+}
 }
 
 @media screen and (min-width: 768px) {
 .image {
   width: 354px;
   height: 294px;
+}
+.hoverlist__description {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 49px;
+  margin-bottom: 49px;
 }
 }
 
@@ -77,13 +89,17 @@
   line-height: 28px;
   letter-spacing: 0.03em;
   color: var(--color-6);
-  margin-left: 24px;
-  margin-right: 45px;
-  margin-top: 49px;
-  margin-bottom: 49px;
+ 
 }
 
 .image {
   position: relative;
   overflow: hidden;
+}
+
+@media screen and (min-width: 1200px) {
+  .hoverlist__description {
+      margin-right: 45px;
+}
+  
 }

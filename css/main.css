@@ -186,6 +186,9 @@ img {
     letter-spacing: 0.02em;
     height: 35px;
   }
+  .mobile__social-media_list:last-child::after {
+    background-color: white;
+  }
   .mobile__social-media_list::after {
     content: "";
     display: inline-block;
@@ -195,9 +198,6 @@ img {
     margin-left: 10px;
     margin-right: 10px;
     padding-top: 5px;
-  }
-  :last-child::after {
-    background-color: white;
   }
 }
 
@@ -624,12 +624,24 @@ img {
     width: 450px;
     height: 294px;
   }
+  .hoverlist__description {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 77px;
+    margin-bottom: 77px;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .image {
     width: 354px;
     height: 294px;
+  }
+  .hoverlist__description {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 49px;
+    margin-bottom: 49px;
   }
 }
 
@@ -693,15 +705,17 @@ img {
   line-height: 28px;
   letter-spacing: 0.03em;
   color: var(--color-6);
-  margin-left: 24px;
-  margin-right: 45px;
-  margin-top: 49px;
-  margin-bottom: 49px;
 }
 
 .image {
   position: relative;
   overflow: hidden;
+}
+
+@media screen and (min-width: 1200px) {
+  .hoverlist__description {
+    margin-right: 45px;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -743,6 +757,12 @@ img {
   }
   .portfolionav__item:nth-child(3) {
     width: 145px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .portfolionav {
+    justify-content: center;
   }
 }
 
@@ -958,6 +978,7 @@ img {
   .team__item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     margin-bottom: 30px;
+    width: 450px;
   }
   .team__item .social-media__list:hover svg,
   .team__item .social-media__list:hover {

@@ -14,11 +14,45 @@
 </head>
 <body class="portfbody">
     <header class="header">
+        <div class="mobile__menu visually-hidden" mobile-menu>
+            <button type="button" class="mobile__close-btn" mobile-menu-close ><svg class="mobile__close-btn__svg"><use href="./images/mobile-icons.svg#icon-closebtn"></use></svg></button>
+            <ul class="menu">
+                <li class="menu__item"><a class="menu__link " href="./index.html">Agencja</a></li>
+                <li class="menu__item"><a class="menu__link" href="./portfolio.html">Portfolio</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">Kontakt</a></li>
+            </ul>
+             <ul class="contact">
+            <li class="contact__item">
+                <a class="contact__link" href="mailto:info@devstudio.com">+48 111 111 111
+                </a>
+            </li>
+            <li class="contact__item">
+                <a class="contact__link" href="tel:48111111111">info@devstudio.com
+                </a>
+            </li>
+        </ul> 
+        <ul class="mobile__social-media link">
+             <li class="mobile__social-media_list list">
+               <a class="mobile__sicuak-media-link ">Instagram</a>               
+             </li>
+             <li class="mobile__social-media_list list">
+               <a class="mobile__sicuak-media-link">Twitter</a>            
+             </li>
+             <li class="mobile__social-media_list list">
+               <a class="mobile__sicuak-media-link">Facebook</a>
+             </li>
+             <li class="mobile__social-media_list list">
+               <a class="mobile__sicuak-media-link">LinkedIn</a>
+             </li>             
+                </ul>
+        </div>
         <div class="cointaner">
             <a class="logo" href="./index.html"></a>
-            <svg class="menu__mobile" width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667V0H24V2.66667H0ZM0 9.33333H24V6.66667H0V9.33333ZM0 16H24V13.3333H0V16Z" fill="black"/>
+            <button type="button" class="menu__button" mobile-menu-open>
+        <svg class="menu__mobile">
+            <use href="./images/mobile-icons.svg#icon-menu"></use>
         </svg>
+        </button>
             <nav class="navigation">
                 <ul class="menu">
                     <li class="menu__item"><a class="menu__link" href="./index.html">Agencja</a></li>
@@ -60,27 +94,15 @@
     <ul class="portfoliopictures list">
         <li class="portfoliopictures__item">
             <div class="image">
-                 <picture class="portfolio__picture">
-                    <source 
-                        srcset="./images/portfoliomobile/screenpeople-mobile.jpg 1x, ./images/portfoliomobile/screenpeople-mobile@2x.jpg 2x"
-                        media="(min-width: 480px)">
-                    <source 
-                        srcset="./images/portfoliotablet/screenpeople-tablet.jpg 1x, ./images/portfoliotablet/screenpeople-tablet@2x.jpg 2x"
-                        media="(min-width: 768px)">
-                    <source 
-                        srcset="./images/portfoliodesktop/screenpeople-desktop.jpg 1x, ./images/portfoliodesktop/screenpeople-desktop@2x.jpg 2x"
-                        media="(min-width: 1200px)">  
-                    <source 
-                        srcset="./images/portfoliomobilewebp/screenpeople-mobile.webp 1x, ./images/portfoliomobile/screenpeople-mobile@2x.jpg 2x"
-                        media="(min-width: 480px) " type="image/webp">
-                    <source 
-                        srcset="./images/portfoliotabletwebp/screenpeople-tablet.webp 1x, ./images/portfoliotablet/screenpeople-tablet@2x.jpg 2x"
-                        media="(min-width: 768px)" type="image/webp">
-                    <source 
-                        srcset="./images/portfoliodesktopwebp/screenpeople-desktop.webp 1x, ./images/portfoliodesktop/screenpeople-desktop@2x.jpg 2x"
-                        media="(min-width: 1200px)" type="image/webp">  
-                    <img class="portfolio__img" src=".images/portfoliotablet/screenpeople-tablet.jpg" alt="picture of laptop" >          
-                </picture>
+              <picture>
+               <source media="(min-width: 1200px)"
+                  srcset="./images/portfoliodesktop/screenpeople-desktop.jpg 1x, ./images/portfoliodesktop/screenpeople-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                  srcset="./images/portfoliotablet/screenpeople-tablet.jpg 1x, ./images/portfoliodesktop/screenpeople-tablet@2x.jpg 2x">
+                  <source media="(min-width: 320px)"
+                      srcset="./images/portfoliomobile/screenpeople-mobile.jpg 1x, ./images/portfoliomobile/screenpeople-mobile@2x.jpg 2x">
+                  <img src="./images/imgportfolio/zdjup/upleft.jpg" alt="picture of laptop"/>
+              </picture>
             <!-- <img class="image__img" src="./images/imgportfolio/zdjup/upleft.jpg" alt="picture of laptop" width="370" height="294"> -->
             
             <div class="hoverlist">
@@ -94,27 +116,15 @@
         </li>
         <li class="portfoliopictures__item ">
             <div class="image">
-                 <picture class="portfolio__picture">
-                    <source 
-                        srcset="./images/portfoliomobile/basketball-mobile.jpg 1x, ./images/portfoliomobile/basketball-mobile@2x.jpg 2x"
-                        media="(min-width: 480px)">
-                    <source 
-                        srcset="./images/portfoliotablet/basketball-tablet.jpg 1x, ./images/portfoliotablet/basketball-tablet@2x.jpg 2x"
-                        media="(min-width: 768px)">
-                    <source 
-                        srcset="./images/portfoliodesktop/basketball-desktop.jpg 1x, ./images/portfoliodesktop/basketball-desktop@2x.jpg 2x"
-                        media="(min-width: 1200px)">  
-                    <source 
-                        srcset="./images/portfoliomobilewebp/basketball-mobile.webp 1x, ./images/portfoliomobile/basketball-mobile@2x.jpg 2x"
-                        media="(min-width: 480px) " type="image/webp">
-                    <source 
-                        srcset="./images/portfoliotabletwebp/basketball-tablet.webp 1x, ./images/portfoliotablet/basketball-tablet@2x.jpg 2x"
-                        media="(min-width: 768px)" type="image/webp">
-                    <source 
-                        srcset="./images/portfoliodesktopwebp/basketball-desktop.webp 1x, ./images/portfoliodesktop/basketball-desktop@2x.jpg 2x"
-                        media="(min-width: 1200px)" type="image/webp">  
-                    <img class="portfolio__img" src=".images/portfoliotablet/basketball-tablet.jpg" alt="people playing basketball" >          
-                </picture>
+                 <picture>
+               <source media="(min-width: 1200px)"
+                  srcset="./images/portfoliodesktop/basketball-desktop.jpg 1x, ./images/portfoliodesktop/basketball-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                  srcset="./images/portfoliotablet/basketball-tablet.jpg 1x, ./images/portfoliodesktop/basketball-tablet@2x.jpg 2x">
+                  <source media="(min-width: 320px)"
+                      srcset="./images/portfoliomobile/basketball-mobile.jpg 1x, ./images/portfoliomobile/basketball-mobile@2x.jpg 2x">
+                  <img src="./images/imgportfolio/zdjup/upmid.jpg" alt="people playing basketball"/>
+              </picture>
             <!-- <img class="image__img" src="./images/imgportfolio/zdjup/upmid.jpg" alt="people playing basketball"  width="370" height="294"> -->
            
             <div class="hoverlist">
@@ -129,27 +139,15 @@
         </li>
         <li class="portfoliopictures__item">
             <div class="image">
-                 <picture class="portfolio__picture">
-                    <source 
-                        srcset="./images/portfoliomobile/seafood-mobile.jpg 1x, ./images/portfoliomobile/seafood-mobile@2x.jpg 2x"
-                        media="(min-width: 480px)">
-                    <source 
-                        srcset="./images/portfoliotablet/seafood-tablet.jpg 1x, ./images/portfoliotablet/seafood-tablet@2x.jpg 2x"
-                        media="(min-width: 768px)">
-                    <source 
-                        srcset="./images/portfoliodesktop/seafood-desktop.jpg 1x, ./images/portfoliodesktop/seafood-desktop@2x.jpg 2x"
-                        media="(min-width: 1200px)">  
-                    <source 
-                        srcset="./images/portfoliomobilewebp/seafood-mobile.webp 1x, ./images/portfoliomobile/seafood-mobile@2x.jpg 2x"
-                        media="(min-width: 480px) " type="image/webp">
-                    <source 
-                        srcset="./images/portfoliotabletwebp/seafood-tablet.webp 1x, ./images/portfoliotablet/seafood-tablet@2x.jpg 2x"
-                        media="(min-width: 768px)" type="image/webp">
-                    <source 
-                        srcset="./images/portfoliodesktopwebp/seafood-desktop.webp 1x, ./images/portfoliodesktop/seafood-desktop@2x.jpg 2x"
-                        media="(min-width: 1200px)" type="image/webp">  
-                    <img class="portfolio__img" src=".images/portfoliotablet/seafood-tablet.jpg" alt="picture of shark" >          
-                </picture>
+                    <picture>
+               <source media="(min-width: 1200px)"
+                  srcset="./images/portfoliodesktop/seafood-desktop.jpg 1x, ./images/portfoliodesktop/seafood-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                  srcset="./images/portfoliotablet/seafood-tablet.jpg 1x, ./images/portfoliodesktop/seafood-tablet@2x.jpg 2x">
+                  <source media="(min-width: 320px)"
+                      srcset="./images/portfoliomobile/seafood-mobile.jpg 1x, ./images/portfoliomobile/seafood-mobile@2x.jpg 2x">
+                  <img src="./images/imgportfolio/zdjup/upright.jpg" alt="picture of shark"/>
+              </picture>
             <!-- <img class="image__img" src="./images/imgportfolio/zdjup/upright.jpg" alt="picture of shark"  width="370" height="294"> -->
             
             <div class="hoverlist">
@@ -163,27 +161,15 @@
         </li>
         <li class="portfoliopictures__item">
             <div class="image">
-                <picture class="portfolio__picture">
-                    <source 
-                        srcset="./images/portfoliomobile/headphones-mobile.jpg 1x, ./images/portfoliomobile/headphones-mobile@2x.jpg 2x"
-                        media="(min-width: 480px)">
-                    <source 
-                        srcset="./images/portfoliotablet/headphones-tablet.jpg 1x, ./images/portfoliotablet/headphones-tablet@2x.jpg 2x"
-                        media="(min-width: 768px)">
-                    <source 
-                        srcset="./images/portfoliodesktop/headphones-desktop.jpg 1x, ./images/portfoliodesktop/headphones-desktop@2x.jpg 2x"
-                        media="(min-width: 1200px)">  
-                    <source 
-                        srcset="./images/portfoliomobilewebp/headphones-mobile.webp 1x, ./images/portfoliomobile/headphones-mobile@2x.jpg 2x"
-                        media="(min-width: 480px) " type="image/webp">
-                    <source 
-                        srcset="./images/portfoliotabletwebp/headphones-tablet.webp 1x, ./images/portfoliotablet/headphones-tablet@2x.jpg 2x"
-                        media="(min-width: 768px)" type="image/webp">
-                    <source 
-                        srcset="./images/portfoliodesktopwebp/headphones-desktop.webp 1x, ./images/portfoliodesktop/headphones-desktop@2x.jpg 2x"
-                        media="(min-width: 1200px)" type="image/webp">  
-                    <img class="portfolio__img" src=".images/portfoliotablet/headphones-tablet.jpg" alt="picture of headphones" >          
-                </picture>
+                    <picture>
+               <source media="(min-width: 1200px)"
+                  srcset="./images/portfoliodesktop/headphones-desktop.jpg 1x, ./images/portfoliodesktop/headphones-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                  srcset="./images/portfoliotablet/headphones-tablet.jpg 1x, ./images/portfoliodesktop/headphones-tablet@2x.jpg 2x">
+                  <source media="(min-width: 320px)"
+                      srcset="./images/portfoliomobile/headphones-mobile.jpg 1x, ./images/portfoliomobile/headphones-mobile@2x.jpg 2x">
+                  <img src="./images/imgportfolio/zdjmiddle/midleft.jpg" alt="picture of headphones"/>
+              </picture>
             <!-- <img class="image__img" src="./images/imgportfolio/zdjmiddle/midleft.jpg" alt="picture of headphones"  width="370" height="294"> -->
             
             <div class="hoverlist">
@@ -197,27 +183,15 @@
         </li>
         <li class="portfoliopictures__item">
             <div class="image">
-                <picture class="portfolio__picture">
-                    <source 
-                        srcset="./images/portfoliomobile/projectboxes-mobile.jpg 1x, ./images/portfoliomobile/projectboxes-mobile@2x.jpg 2x"
-                        media="(min-width: 480px)">
-                    <source 
-                        srcset="./images/portfoliotablet/projectboxes-tablet.jpg 1x, ./images/portfoliotablet/projectboxes-tablet@2x.jpg 2x"
-                        media="(min-width: 768px)">
-                    <source 
-                        srcset="./images/portfoliodesktop/projectboxes-desktop.jpg 1x, ./images/portfoliodesktop/projectboxes-desktop@2x.jpg 2x"
-                        media="(min-width: 1200px)">  
-                    <source 
-                        srcset="./images/portfoliomobilewebp/projectboxes-mobile.webp 1x, ./images/portfoliomobile/projectboxes-mobile@2x.jpg 2x"
-                        media="(min-width: 480px) " type="image/webp">
-                    <source 
-                        srcset="./images/portfoliotabletwebp/projectboxes-tablet.webp 1x, ./images/portfoliotablet/projectboxes-tablet@2x.jpg 2x"
-                        media="(min-width: 768px)" type="image/webp">
-                    <source 
-                        srcset="./images/portfoliodesktopwebp/projectboxes-desktop.webp 1x, ./images/portfoliodesktop/projectboxes-desktop@2x.jpg 2x"
-                        media="(min-width: 1200px)" type="image/webp">  
-                    <img class="portfolio__img" src=".images/portfoliotablet/projectboxes-tablet.jpg" alt="picture of projekt boxes" >          
-                </picture>
+                     <picture>
+               <source media="(min-width: 1200px)"
+                  srcset="./images/portfoliodesktop/projectboxes-desktop.jpg 1x, ./images/portfoliodesktop/projectboxes-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                  srcset="./images/portfoliotablet/projectboxes-tablet.jpg 1x, ./images/portfoliodesktop/projectboxes-tablet@2x.jpg 2x">
+                  <source media="(min-width: 320px)"
+                      srcset="./images/portfoliomobile/projectboxes-mobile.jpg 1x, ./images/portfoliomobile/projectboxes-mobile@2x.jpg 2x">
+                  <img src="./images/imgportfolio/zdjmiddle/midmid.jpg" alt="picture of projekt boxes"/>
+              </picture>
             <!-- <img class="image__img" src="./images/imgportfolio/zdjmiddle/midmid.jpg" alt="picture of projekt boxes"  width="370" height="294"> -->
             
             <div class="hoverlist">
@@ -231,27 +205,15 @@
         </li>
         <li class="portfoliopictures__item">
             <div class="image">
-                <picture class="portfolio__picture">
-                    <source 
-                        srcset="./images/portfoliomobile/monitor-mobile.jpg 1x, ./images/portfoliomobile/monitor-mobile@2x.jpg 2x"
-                        media="(min-width: 480px)">
-                    <source 
-                        srcset="./images/portfoliotablet/monitor-tablet.jpg 1x, ./images/portfoliotablet/monitor-tablet@2x.jpg 2x"
-                        media="(min-width: 768px)">
-                    <source 
-                        srcset="./images/portfoliodesktop/monitor-desktop.jpg 1x, ./images/portfoliodesktop/monitor-desktop@2x.jpg 2x"
-                        media="(min-width: 1200px)">  
-                    <source 
-                        srcset="./images/portfoliomobilewebp/monitor-mobile.webp 1x, ./images/portfoliomobile/monitor-mobile@2x.jpg 2x"
-                        media="(min-width: 480px) " type="image/webp">
-                    <source 
-                        srcset="./images/portfoliotabletwebp/monitor-tablet.webp 1x, ./images/portfoliotablet/monitor-tablet@2x.jpg 2x"
-                        media="(min-width: 768px)" type="image/webp">
-                    <source 
-                        srcset="./images/portfoliodesktopwebp/monitor-desktop.webp 1x, ./images/portfoliodesktop/monitor-desktop@2x.jpg 2x"
-                        media="(min-width: 1200px)" type="image/webp">  
-                    <img class="portfolio__img" src=".images/portfoliotablet/monitor-tablet.jpg" alt="picture of monitor" >          
-                </picture>
+                    <picture>
+               <source media="(min-width: 1200px)"
+                  srcset="./images/portfoliodesktop/monitor-desktop.jpg 1x, ./images/portfoliodesktopmonitor-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                  srcset="./images/portfoliotablet/monitor-tablet.jpg 1x, ./images/portfoliodesktop/monitor-tablet@2x.jpg 2x">
+                  <source media="(min-width: 320px)"
+                      srcset="./images/portfoliomobile/monitor-mobile.jpg 1x, ./images/portfoliomobile/monitor-mobile@2x.jpg 2x">
+                  <img src="./images/imgportfolio/zdjmiddle/midright.jpg" alt="picture of monitor"/>
+              </picture>
             <!-- <img class="image__img" src="./images/imgportfolio/zdjmiddle/midright.jpg" alt="picture of monitor"  width="370" height="294"> -->
            
             <div class="hoverlist">
@@ -265,27 +227,15 @@
         </li>
         <li class="portfoliopictures__item">
             <div class="image">
-                 <picture class="portfolio__picture">
-                    <source 
-                        srcset="./images/portfoliomobile/book-mobile.jpg 1x, ./images/portfoliomobile/book-mobile@2x.jpg 2x"
-                        media="(min-width: 480px)">
-                    <source 
-                        srcset="./images/portfoliotablet/book-tablet.jpg 1x, ./images/portfoliotablet/book-tablet@2x.jpg 2x"
-                        media="(min-width: 768px)">
-                    <source 
-                        srcset="./images/portfoliodesktop/book-desktop.jpg 1x, ./images/portfoliodesktop/book-desktop@2x.jpg 2x"
-                        media="(min-width: 1200px)">  
-                    <source 
-                        srcset="./images/portfoliomobilewebp/book-mobile.webp 1x, ./images/portfoliomobile/book-mobile@2x.jpg 2x"
-                        media="(min-width: 480px) " type="image/webp">
-                    <source 
-                        srcset="./images/portfoliotabletwebp/book-tablet.webp 1x, ./images/portfoliotablet/book-tablet@2x.jpg 2x"
-                        media="(min-width: 768px)" type="image/webp">
-                    <source 
-                        srcset="./images/portfoliodesktopwebp/book-desktop.webp 1x, ./images/portfoliodesktop/book-desktop@2x.jpg 2x"
-                        media="(min-width: 1200px)" type="image/webp">  
-                    <img class="portfolio__img" src=".images/portfoliotablet/book-tablet.jpg" alt="picture of a magazine" >          
-                </picture>
+                     <picture>
+               <source media="(min-width: 1200px)"
+                  srcset="./images/portfoliodesktop/book-desktop.jpg 1x, ./images/portfoliodesktop/book-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                  srcset="./images/portfoliotablet/book-tablet.jpg 1x, ./images/portfoliodesktop/book-tablet@2x.jpg 2x">
+                  <source media="(min-width: 320px)"
+                      srcset="./images/portfoliomobile/book-mobile.jpg 1x, ./images/portfoliomobile/book-mobile@2x.jpg 2x">
+                  <img src="./images/imgportfolio/zdjdown/downleft.jpg" alt="picture of a magazine"/>
+              </picture>
             <!-- <img class="image__img" src="./images/imgportfolio/zdjdown/downleft.jpg" alt="picture of a magazine"  width="370" height="294"> -->
             
             <div class="hoverlist">
@@ -299,27 +249,15 @@
         </li>
         <li class="portfoliopictures__item">
             <div class="image">
-                <picture class="portfolio__picture">
-                    <source 
-                        srcset="./images/portfoliomobile/tag-mobile.jpg 1x, ./images/portfoliomobile/tag-mobile@2x.jpg 2x"
-                        media="(min-width: 480px)">
-                    <source 
-                        srcset="./images/portfoliotablet/tag-tablet.jpg 1x, ./images/portfoliotablet/tag-tablet@2x.jpg 2x"
-                        media="(min-width: 768px)">
-                    <source 
-                        srcset="./images/portfoliodesktop/tag-desktop.jpg 1x, ./images/portfoliodesktop/tag-desktop@2x.jpg 2x"
-                        media="(min-width: 1200px)">  
-                    <source 
-                        srcset="./images/portfoliomobilewebp/tag-mobile.webp 1x, ./images/portfoliomobile/tag-mobile@2x.jpg 2x"
-                        media="(min-width: 480px) " type="image/webp">
-                    <source 
-                        srcset="./images/portfoliotabletwebp/tag-tablet.webp 1x, ./images/portfoliotablet/tag-tablet@2x.jpg 2x"
-                        media="(min-width: 768px)" type="image/webp">
-                    <source 
-                        srcset="./images/portfoliodesktopwebp/tag-desktop.webp 1x, ./images/portfoliodesktop/tag-desktop@2x.jpg 2x"
-                        media="(min-width: 1200px)" type="image/webp">  
-                    <img class="portfolio__img" src=".images/portfoliotablet/tag-tablet.jpg" alt="picture of projekt lab" >          
-                </picture>
+                   <picture>
+               <source media="(min-width: 1200px)"
+                  srcset="./images/portfoliodesktop/tag-desktop.jpg 1x, ./images/portfoliodesktop/tag-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                  srcset="./images/portfoliotablet/tag-tablet.jpg 1x, ./images/portfoliodesktop/tag-tablet@2x.jpg 2x">
+                  <source media="(min-width: 320px)"
+                      srcset="./images/portfoliomobile/tag-mobile.jpg 1x, ./images/portfoliomobile/tag-mobile@2x.jpg 2x">
+                  <img src="./images/imgportfolio/zdjdown/downmid.jpg" alt="picture of projekt lab"/>
+              </picture>
             <!-- <img class="image__img" src="./images/imgportfolio/zdjdown/downmid.jpg" alt="picture of projekt lab"  width="370" height="294"> -->
             
             <div class="hoverlist">
@@ -333,27 +271,15 @@
         </li>
         <li class="portfoliopictures__item">
             <div class="image">
-                <picture class="portfolio__picture">
-                    <source 
-                        srcset="./images/portfoliomobile/laptop-mobile.jpg 1x, ./images/portfoliomobile/laptop-mobile@2x.jpg 2x"
-                        media="(min-width: 480px)">
-                    <source 
-                        srcset="./images/portfoliotablet/laptop-tablet.jpg 1x, ./images/portfoliotablet/laptop-tablet@2x.jpg 2x"
-                        media="(min-width: 768px)">
-                    <source 
-                        srcset="./images/portfoliodesktop/laptop-desktop.jpg 1x, ./images/portfoliodesktop/laptop-desktop@2x.jpg 2x"
-                        media="(min-width: 1200px)">  
-                    <source 
-                        srcset="./images/portfoliomobilewebp/laptop-mobile.webp 1x, ./images/portfoliomobile/laptop-mobile@2x.jpg 2x"
-                        media="(min-width: 480px) " type="image/webp">
-                    <source 
-                        srcset="./images/portfoliotabletwebp/laptop-tablet.webp 1x, ./images/portfoliotablet/laptop-tablet@2x.jpg 2x"
-                        media="(min-width: 768px)" type="image/webp">
-                    <source 
-                        srcset="./images/portfoliodesktopwebp/laptop-desktop.webp 1x, ./images/portfoliodesktop/laptop-desktop@2x.jpg 2x"
-                        media="(min-width: 1200px)" type="image/webp">  
-                    <img class="portfolio__img" src=".images/portfoliotablet/tag-laptop.jpg" alt="guy writing on laptop" >          
-                </picture>
+                   <picture>
+               <source media="(min-width: 1200px)"
+                  srcset="./images/portfoliodesktop/laptop-desktop.jpg 1x, ./images/portfoliodesktop/laptop-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                  srcset="./images/portfoliotablet/laptop-tablet.jpg 1x, ./images/portfoliodesktop/laptop-tablet@2x.jpg 2x">
+                  <source media="(min-width: 320px)"
+                      srcset="./images/portfoliomobile/laptop-mobile.jpg 1x, ./images/portfoliomobile/laptop-mobile@2x.jpg 2x">
+                  <img src="./images/imgportfolio/zdjdown/downright.jpg" alt="guy writing on laptop"/>
+              </picture>
             <!-- <img class="image__img" src="./images/imgportfolio/zdjdown/downright.jpg" alt="guy writing on laptop"  width="370" height="294"> -->
             
             <div class="hoverlist">

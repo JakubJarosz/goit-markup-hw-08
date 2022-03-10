@@ -18,8 +18,8 @@
     <header class="header">
         <div class="mobile__menu visually-hidden" mobile-menu>
             <button type="button" class="mobile__close-btn" mobile-menu-close ><svg class="mobile__close-btn__svg"><use href="./images/mobile-icons.svg#icon-closebtn"></use></svg></button>
-            <ul class="menu">
-                <li class="menu__item"><a class="menu__link " href="#">Agencja</a></li>
+            <ul class="menu ">
+                <li class="menu__item"><a class="menu__link " href="./index.html">Agencja</a></li>
                 <li class="menu__item"><a class="menu__link" href="./portfolio.html">Portfolio</a></li>
                 <li class="menu__item"><a class="menu__link" href="#">Kontakt</a></li>
             </ul>
@@ -138,16 +138,15 @@
 
         <ul class="team__list list">
             <li class="team__item">
-               <img
-                 alt="John Doe"
-                 src="./images/peoplepic/prod-designer-mobile.jpg"
-                 srcset="
-                 ./images/peoplepic/prod-designer-mobile.jpg 450px,
-                 ./images/peoplepic/prod-designer-tablet.jpg 354w,
-                 ./images/peoplepic/prod-designer-desktop.jpg 270px
-                 "
-                 sizes="(min-width:480px) 450px, (min-width:768px) 354px, (min-width:1200px) 270px, 100vw"
-               />
+              <picture>
+               <source media="(min-width: 1200px)"
+                  srcset="./images/peoplepic/prod-designer-desktop.jpg 1x, ./images/peoplepic/prod-designer-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                  srcset="./images/peoplepic/prod-designer-tablet.jpg 1x, ./images/peoplepic/prod-designer-tablet@2x.jpg 2x">
+                  <source media="(min-width: 320px)"
+                      srcset="./images/peoplepic/prod-designer-mobile.jpg 1x, ./images/peoplepic/prod-designer-mobile@2x.jpg 2x">
+                  <img src="./images/mainsection3/seciotn31.jpg" alt="Picture of John Doe - Product Designer"/>
+              </picture>
                 <div class="team__information">
                 <h3 class="h3">John Doe</h3>
                 <p class="team__profession">Product Designer</p>
@@ -185,14 +184,15 @@
                 </div>
             </li>
             <li class="team__item">
-               <img
-                 alt="John Doe"
-                 src="./images/peoplepic/front-dev-mobile.jpg"
-                 srcset="
-                 ./images/peoplepic/front-dev-mobile@2x.jpg 2x
-                 "
-
-               />
+               <picture>
+               <source media="(min-width: 1200px)"
+                  srcset="./images/peoplepic/front-dev-desktop.jpg 1x, ./images/peoplepic/front-dev-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                  srcset="./images/peoplepic/front-dev-tablet.jpg 1x, ./images/peoplepic/front-dev-tablet@2x.jpg 2x">
+                  <source media="(min-width: 320px)"
+                      srcset="./images/peoplepic/front-dev-mobile.jpg 1x, ./images/peoplepic/front-dev-mobile@2x.jpg 2x">
+                  <img src="./images/mainsection3/seciotn32.jpg" alt="Picture of John Doe - Frontend Developer"/>
+              </picture>
                 <!-- <img src="./images/mainsection3/section32.jpg" alt="John Doe1" width="270" height="260"> -->
                 <div class="team__information">
                 <h3 class="h3">John Doe</h3>
@@ -230,14 +230,15 @@
                 </div>
             </li>
             <li class="team__item">
-               <img
-                 alt="John Doe"
-                 src="./images/peoplepic/marketing-mobile.jpg"
-                 srcset="
-                 ./images/peoplepic/marketing-mobile@2x.jpg 2x
-                 "
-
-               />
+               <picture>
+               <source media="(min-width: 1200px)"
+                  srcset="./images/peoplepic/marketing-desktop.jpg 1x, ./images/peoplepic/marketing-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                  srcset="./images/peoplepic/marketing-tablet.jpg 1x, ./images/peoplepic/marketing-tablet@2x.jpg 2x">
+                  <source media="(min-width: 320px)"
+                      srcset="./images/peoplepic/marketing-mobile.jpg 1x, ./images/peoplepic/marketing-mobile@2x.jpg 2x">
+                  <img src="./images/mainsection3/seciotn33.jpg" alt="Picture of John Doe - Marketing"/>
+              </picture>
                 <!-- <img src="./images/mainsection3/section33.jpg" alt="John Doe2" width="270" height="260"> -->
                 <div class="team__information">
                 <h3 class="h3">John Doe</h3>
@@ -275,14 +276,15 @@
                 </div>
             </li>
             <li class="team__item">
-                <img
-                 alt="John Doe"
-                 src="./images/peoplepic/UI-designer-mobile.jpg"
-                 srcset="
-                 ./images/peoplepic/UI-designer-mobile@2x.jpg 2x
-                 "
-                 sizes="(min-width:480px) 450px"
-               />
+              <picture>
+               <source media="(min-width: 1200px)"
+                  srcset="./images/peoplepic/UI-designer-desktop.jpg 1x, ./images/peoplepic/UI-designer-desktop@2x.jpg 2x">
+                  <source media="(min-width: 768px)"
+                  srcset="./images/peoplepic/UI-designer-tablet.jpg 1x, ./images/peoplepic/UI-designer-tablet@2x.jpg 2x">
+                  <source media="(min-width: 320px)"
+                      srcset="./images/peoplepic/UI-designer-mobile.jpg 1x, ./images/peoplepic/UI-designer-mobile@2x.jpg 2x">
+                  <img src="./images/mainsection3/seciotn33.jpg" alt="Picture of John Doe - UI designer"/>
+              </picture>
                 <!-- <img src="./images/mainsection3/section34.jpg" alt="John Doe3" width="270" height="260"> -->
                 <div class="team__information">
                 <h3 class="h3">John Doe</h3>
@@ -438,8 +440,8 @@
                     </div>
                 </label>
             </div>
-           
-        
+            
+
 
     </footer> 
 
