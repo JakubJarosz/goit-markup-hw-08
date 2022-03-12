@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .footer {
   background-color: #2f303a;
 
@@ -193,6 +193,7 @@
 }
 .signin {
   display: flex;
+
 }
 .signin__input {
   margin-right: 12px;
@@ -211,6 +212,9 @@
 .signin__svg {
   top: 13px;
   right: 29px;
+}
+.rightfooter {
+  margin-left: auto;
 }
 }
 

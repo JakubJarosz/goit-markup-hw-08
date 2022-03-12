@@ -79,7 +79,7 @@ img {
   display: flex;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .cointaner {
     max-width: 767px;
     padding-left: 15px;
@@ -95,13 +95,13 @@ img {
 
 @media screen and (min-width: 1200px) {
   .cointaner {
-    max-width: 1600px;
+    max-width: 2600px;
     padding-left: 189px;
     padding-right: 189px;
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .menu__button {
     background-color: transparent;
     height: 22px;
@@ -229,7 +229,7 @@ img {
   pointer-events: none;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .contact {
     display: none;
     list-style-type: none;
@@ -334,7 +334,7 @@ img {
   padding-right: 40px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .modal {
     background-color: var(--color-7);
     width: 450px;
@@ -479,7 +479,7 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .menu {
     display: none;
     list-style-type: none;
@@ -525,7 +525,7 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .h2 {
     padding-top: 60px;
     padding-bottom: 30px;
@@ -587,7 +587,7 @@ img {
   margin-right: 10px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .h1 {
     font-weight: 900;
     font-size: 26px;
@@ -619,7 +619,7 @@ img {
 }
 
 */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .image {
     width: 450px;
     height: 294px;
@@ -718,7 +718,7 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .portfolionav {
     display: flex;
     flex-wrap: wrap;
@@ -766,7 +766,7 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .footer {
     background-color: #2f303a;
   }
@@ -943,9 +943,12 @@ img {
     top: 13px;
     right: 29px;
   }
+  .rightfooter {
+    margin-left: auto;
+  }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .header .logo {
     margin-bottom: 16px;
   }
@@ -965,7 +968,7 @@ img {
   color: var(--color-8);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .team {
     background-color: var(--color-7);
   }
@@ -1013,7 +1016,7 @@ img {
 
 
 */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .description__list {
     justify-content: space-between;
     align-items: center;
@@ -1141,7 +1144,7 @@ img {
   height: 70px;
 }
 */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .whatwedo {
     display: none;
   }
@@ -1181,7 +1184,7 @@ img {
   bottom: 0px;
 }
 */
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .order {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main/main-mobile.jpg");
     background-repeat: no-repeat;
@@ -1189,7 +1192,7 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .order .button__container .button {
     margin-bottom: 118px;
   }
@@ -1251,7 +1254,7 @@ img {
 }
 }
 */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .clients__list {
     display: flex;
     flex-wrap: wrap;

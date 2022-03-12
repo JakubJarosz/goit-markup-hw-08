@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .order {
     background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -10,7 +10,7 @@
 
     }                                                          
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
 .order .button__container .button {
     margin-bottom: 118px;
 }
