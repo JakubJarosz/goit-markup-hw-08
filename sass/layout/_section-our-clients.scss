@@ -2,8 +2,8 @@
   .clients__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
 }
 
@@ -21,6 +21,10 @@
   justify-content: center;
   transition: all 250ms linear;
   transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
+
+  &:nth-child(odd) {
+    margin-right: 30px;
+  }
 
 &:hover svg,
 &:hover {
@@ -46,7 +50,12 @@
 @media screen and (min-width: 768px) {
   .clients__item {
     width: 226px;
+
+    &:nth-child(even) {
+    margin-right: 30px;
   }
+  }
+  
 }
 
 
@@ -55,8 +64,7 @@
 @media screen and (min-width: 1200px) {
   .clients__list {
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 94px;
 }

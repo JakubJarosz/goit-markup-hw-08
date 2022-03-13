@@ -145,12 +145,12 @@
 
 
 .signin__svg {
-  position: absolute;
-  top: 13px;
-  right: 145px;
   width: 24px;
   height: 24px;
   fill: var(--color-6);
+  margin-left: 24px;
+   display: inline-block;
+   vertical-align: middle;
 }
 
 .signin {
@@ -172,10 +172,6 @@
 .h4 {
   padding-top: 60px;
 } 
-.signin__svg {
-  top: 13px;
-  right: 283px;
-}
 }
 
 @media screen and (min-width: 1200px) {
@@ -201,7 +197,7 @@
 
 .signin-title {
   text-align: left;
-  margin-top: 72px;
+  margin-top: 25px;
 }
 .h4 {
   padding-top: 72px;
@@ -209,10 +205,7 @@
 .leftfooter {
   text-align: left;
 }
-.signin__svg {
-  top: 13px;
-  right: 29px;
-}
+
 .rightfooter {
   margin-left: auto;
 }
