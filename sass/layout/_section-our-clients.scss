@@ -22,9 +22,7 @@
   transition: all 250ms linear;
   transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
 
-  &:nth-child(odd) {
-    margin-right: 30px;
-  }
+ 
 
 &:hover svg,
 &:hover {
@@ -43,6 +41,13 @@
   height: 60px;
   fill: #AFB1B8;
 }
+
+}
+
+@media screen and (min-width: 500px) {
+   .clients__item:nth-child(odd) {
+    margin-right: 30px;
+  }
 
 }
 

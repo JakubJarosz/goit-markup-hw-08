@@ -17,6 +17,8 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
     margin-bottom: 30px;
+    justify-content: center;
+    width: 270px;
   
     
     
@@ -48,10 +50,20 @@
 }
 }
 
+@media screen and (min-width: 490px) {
+   .team__item{
+    width: 450px;
+   } 
+}
+
 @media screen and (min-width: 768px) {
   .team__list {
     display: flex;
     justify-content: center;
+  }
+
+  .team__item {
+    width: 354px;
   }
   .team__item:nth-child(odd){
       margin-right: 30px;
@@ -69,6 +81,12 @@
   
 }
 
+}
+
+@media screen and (min-width: 1600px) {
+  .team__item {
+    width: 270px;
+  }
 }
 
 
