@@ -1,6 +1,6 @@
 # goit-markup-hw-03
 
-Description: 
+
 Company site with responsive web design. Using JS, HTML, SASS.
 
 Site:
